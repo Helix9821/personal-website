@@ -1,0 +1,65 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    background-image: url(Images/mist.jpg);
+    background-size: cover;
+  }
+  
+  .container {
+    width: 80%;
+    max-width: 600px;
+    margin: 100px auto;
+    text-align: center;
+    color: #fff;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  }
+  
+  h1 {
+    font-size: 4rem;
+    font-weight: 600;
+    margin: 0;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    transform: translateZ(0);
+  }
+  
+  p {
+    font-size: 1.5rem;
+    font-weight: 400;
+    margin-top: 20px;
+  }
+  
+  .icons {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+  }
+  
+  a {
+    display: inline-block;
+    margin: 0 10px;
+    font-size: 1.5rem;
+    color: #fff;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    transition: all 0.3s ease;
+  }
+  
+  a:hover {
+    color: #333;
+    text-shadow: none;
+  }
+  
+  i {
+    display: inline-block;
+    font-size: 1.5rem;
+    padding: 10px;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.2);
+  }
+  
+  i:hover {
+    background-color: rgba(255, 255, 255, 0.4);
+    cursor: pointer;
+  }
+  

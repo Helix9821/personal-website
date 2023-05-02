@@ -3,7 +3,7 @@ body {
     padding: 0;
     font-family: 'Montserrat', sans-serif;
     background-image: url(mist.jpg);
-    background-size: cover;
+    background-size: auto;
   }
   
   .container {

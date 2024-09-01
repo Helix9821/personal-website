@@ -4,125 +4,120 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Anup Godar's Portfolio</title>
-    <meta name="description" content="Portfolio of Anup Godar, an undergraduate Mechanical Engineering student from Kathmandu University with experience in space vehicle design, CAD modeling, and astrometric data analysis.">
     <link rel="stylesheet" href="style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <script defer src="script.js"></script>
+	
 </head>
 <body>
     <header>
-        <div class="header-content">
-            <h1>Anup Godar</h1>
-            <p>Undergraduate Mechanical Engineering Student</p>
-            <p>Dhulikhel, Kavreplanchok, Bagmati Province, Nepal</p>
-            <p>Email: <a href="mailto:anudaafafava@gmail.com">anudaafafava@gmail.com</a> | LinkedIn: <a href="https://www.linkedin.com/in/anancakckar">/in/anancakckar</a></p>
-        </div>
+        <h1>Anup Godar</h1>
+        <p>Undergraduate Mechanical Engineering Student</p>
+        <p>Dhulikhel, Kavreplanchok, Bagmati Province, Nepal</p>
+        <p>Email: <a href="mailto:anudaafafava@gmail.com" class="contact-link">anudaafafava@gmail.com</a> | LinkedIn: <a href="https://www.linkedin.com/in/anancakckar" class="contact-link">/in/anancakckar</a></p>
     </header>
 
-    <nav>
-        <a href="#about">About Me</a>
-        <a href="#education">Education</a>
-        <a href="#experience">Experience</a>
-        <a href="#projects">Projects</a>
-        <a href="#awards">Awards</a>
-        <a href="#skills">Skills</a>
-        <a href="#activities">Activities</a>
-        <a href="#contact">Contact</a>
-    </nav>
-
-    <main class="container">
+    <div class="container">
         <section id="about">
-            <h2>About Me</h2>
-            <p>I'm a passionate Mechanical Engineering student with a focus on Space Vehicle and Satellite Design. I have honed my skills in CAD modeling (SolidWorks, Fritzing) and astrometric data analysis (Astrometrica). My technical expertise extends to C and C++ programming and project management using ClickUp. I’m driven to leverage my skills and enthusiasm for space research at Space Research Center NAST.</p>
-            <div class="image-container">
-                <img src="images/about-me.jpg" alt="Anup Godar - Mechanical Engineering Student">
-            </div>
+            <h2><i class="fas fa-user"></i> About Me</h2>
+            <p>Highly motivated Mechanical Engineering student with a strong interest in Space Vehicle and Satellite Design. Skilled in CAD modeling (SolidWorks, Fritzing) and astrometric data analysis (Astrometrica). Proficient in C and C++ programming with experience in project management using ClickUp. Eager to apply technical skills and passion for space research at Space Research Center NAST.</p>
         </section>
 
-        <section id="education">
-            <h2>Education</h2>
-            <ul>
-                <li><strong>Bachelor of Engineering: Mechanical Engineering</strong> - Kathmandu University, Dhulikhel Kavrepalanchok (2022-Present)</li>
-                <li><strong>Grade 11 - Grade 12</strong> - Janta Higher Secondary School, Tansen Palpa (2020-2022)</li>
-                <li><strong>Grade Nursery to Grade 10</strong> - Bethel English Boarding School, Tansen Palpa (2007-2020)</li>
-            </ul>
-            <div class="image-container">
-                <img src="images/education.jpg" alt="Education">
+        <section id="education" class="education-section">
+            <h2><i class="fas fa-graduation-cap"></i> Education</h2>
+            <div class="education-timeline">
+                <div class="timeline-item">
+                    <h3>Bachelor of Engineering: Mechanical Engineering</h3>
+                    <p>Kathmandu University, Dhulikhel Kavrepalanchok (2022-Present)</p>
+                </div>
+                <div class="timeline-item">
+                    <h3>Grade 11 - Grade 12</h3>
+                    <p>Janta Higher Secondary School, Tansen Palpa (2020-2022)</p>
+                </div>
+                <div class="timeline-item">
+                    <h3>Grade Nursery to Grade 10</h3>
+                    <p>Bethel English Boarding School, Tansen Palpa (2007-2020)</p>
+                </div>
             </div>
         </section>
 
         <section id="experience">
-            <h2>Experience</h2>
-            <ul>
-                <li><strong>Lead Payload Sub-Division Team Udaan</strong> - December 2022-Present</li>
-                <li><strong>Secretary SEDS-KU</strong> - May 2024-Present</li>
-                <li><strong>Executive Member, Kathmandu University Literature Academy</strong> - 2023-2024</li>
-            </ul>
-            <div class="image-container">
-                <img src="images/experience.jpg" alt="Experience">
+            <h2><i class="fas fa-briefcase"></i> Experience</h2>
+            <div class="experience-grid">
+                <div class="experience-item">
+                    <h3><i class="fas fa-rocket"></i> Lead, Payload Sub-Division, Team Udaan</h3>
+                    <p>December 2022-Present</p>
+                    <p>Currently contributing as Payload Sub-Division lead at Team Udaan, a rocketry project at KU, and also closely working on Propulsion subdivision. Utilizing project management software to streamline collaboration and ensure project goals are met.</p>
+                </div>
+                <div class="experience-item">
+                    <h3><i class="fas fa-space-shuttle"></i> Secretary, SEDS-KU</h3>
+                    <p>May 2024-Present</p>
+                    <p>Currently supporting the organization's mission of promoting space science, technology, and research within Kathmandu University.</p>
+                </div>
+                <div class="experience-item">
+                    <h3><i class="fas fa-book"></i> Executive Member, Kathmandu University Literature Academy</h3>
+                    <p>2023-2024</p>
+                    <p>Actively contributing as an Executive Member at the Kathmandu University Literature Academy. Playing a key role in organizing and facilitating various events and discussions.</p>
+                </div>
             </div>
         </section>
 
         <section id="projects">
-            <h2>Projects</h2>
-            <ul>
-                <li><strong>Development of Solid Fueled Sounding Rocket</strong> - Leading the Payload team and contributing to the Propulsion subdivision.</li>
-                <li><strong>Prototype Development of Stair Climbing Trolley</strong> - Designed and built a functional stair-climbing trolley, including CAD modeling and 3D printing.</li>
-                <li><strong>Redesign and Prototype of a Motorized Coffee Fruit Pulping Machine</strong> - Working on the design, fabrication, and development of functional machinery for a community-oriented project.</li>
-            </ul>
-            <div class="image-container">
-                <img src="images/projects.jpg" alt="Projects">
+            <h2><i class="fas fa-project-diagram"></i> Projects</h2>
+            <div class="experience-grid">
+                <div class="experience-item">
+                    <h3><i class="fas fa-rocket"></i> Development of Solid Fueled Sounding Rocket</h3>
+                    <p>Team Project, Team Udaan</p>
+                    <p>Leading the Payload team and contributing to the Propulsion subdivision in designing and managing critical components such as the payload bay and motor, applying advanced engineering principles to develop a high-performance sounding rocket at KU.</p>
+                </div>
+                <div class="experience-item">
+                    <h3><i class="fas fa-cogs"></i> Prototype Development of Stair Climbing Trolley</h3>
+                    <p>Academic Project; 1st Year 2nd Semester</p>
+                    <p>Gained hands-on experience in the prototype development process, including CAD modeling and 3D printing, to design and build a functional stair-climbing trolley. <a href="https://www.researchgate.net/publication/378312016_PROJECT_REPORT_ON_PROTOTYPE_DEVELOPMENT_OF_QUAD-WHEEL_STAIR_CLIMBING_TROLLEY" class="project-link">Read more</a></p>
+                </div>
+                <div class="experience-item">
+                    <h3><i class="fas fa-tools"></i> Redesign and Prototype of a Motorized Coffee Fruit Pulping Machine</h3>
+                    <p>Academic Project; 2nd Year</p>
+                    <p>Working on a community-oriented project, learning the full cycle of addressing real-world problems through the design, fabrication, and development of functional machinery.</p>
+                </div>
             </div>
         </section>
 
         <section id="awards">
-            <h2>Awards</h2>
-            <p><strong>Audience Choice Award, Falling Walls Lab Kathmandu 2024</strong> - Awarded for "Breaking the Wall of Lower Earth Orbit (LEO) Experiment & Research."</p>
-            <div class="image-container">
-                <img src="images/awards.jpg" alt="Awards">
-            </div>
+            <h2><i class="fas fa-trophy"></i> Awards</h2>
+            <p><strong>Audience Choice Award, Falling Walls Lab Kathmandu 2024</strong> - Awarded for presenting "Breaking the Wall of Lower Earth Orbit (LEO) Experiment & Research," showcasing the use of sounding rockets for LEO experiments and research at the finals.</p>
         </section>
 
         <section id="skills">
-            <h2>Skills</h2>
+            <h2><i class="fas fa-cogs"></i> Skills</h2>
             <ul>
                 <li><strong>Technical Skills:</strong> CAD Modeling (SolidWorks, Fritzing), Programming (C, C++), Astrometric Data Analysis (Astrometrica)</li>
                 <li><strong>Software Proficiency:</strong> Adobe Photoshop & DaVinci Resolve, ClickUp</li>
                 <li><strong>Communication & Interpersonal Skills</strong></li>
                 <li><strong>Organization & Project Management</strong></li>
             </ul>
-            <div class="image-container">
-                <img src="images/skills.jpg" alt="Skills">
-            </div>
         </section>
 
         <section id="activities">
-            <h2>Activities</h2>
+            <h2><i class="fas fa-calendar-alt"></i> Activities</h2>
             <ul>
                 <li>Served as Master of Ceremonies for multiple events.</li>
                 <li>Trainer at Aid for Education organized by AMES in collaboration with SEDS-KU.</li>
                 <li>Designer for "SOCH the year book of KURC."</li>
                 <li>Participation in various competitions and volunteer events.</li>
             </ul>
-            <div class="image-container">
-                <img src="images/activities.jpg" alt="Activities">
-            </div>
         </section>
 
         <section id="contact">
-            <h2>Contact</h2>
-            <p>Email: <a href="mailto:anudaafafava@gmail.com">anudaafafava@gmail.com</a></p>
-            <p>LinkedIn: <a href="https://www.linkedin.com/in/anancakckar">/in/anancakckar</a></p>
+            <h2><i class="fas fa-phone"></i> Contact</h2>
+            <p>Email: <a href="mailto:anudaafafava@gmail.com" class="contact-link">anudaafafava@gmail.com</a></p>
+            <p>LinkedIn: <a href="https://www.linkedin.com/in/anancakckar" class="contact-link">/in/anancakckar</a></p>
             <p>Phone: +999999999</p>
-            <div class="image-container">
-                <img src="images/contact.jpg" alt="Contact">
-            </div>
         </section>
-    </main>
+    </div>
 
     <footer>
-        <p>&copy; 2024 Anup Godar. All rights reserved.</p>
+        <p>&copy; 2024 Anup Godar. All rights reserved. Made with <i class="fas fa-robot"></i> by ChatGPT</p>
     </footer>
 </body>
 </html>
